@@ -1,2 +1,4 @@
-# EstudioDevOps90Dias
-Este es un repositorio compartido con Angie Giraldo y David Gorricho para almacenar lo aprendido y los talleres realizados sobre el estudio DevOps
+# Our DevOps Journey
+
+This is a repository share with Angie Giraldo and David Gorricho to document the progress and learning form DevOps.
+We will start with concepts and basic theory
