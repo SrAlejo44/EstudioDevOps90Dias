@@ -1,0 +1,17 @@
+Vagrant.configure("2") do |config|
+  config.vm.provider "virtualbox" do |vb|
+      vb.memory = "4048"
+      vb.name = "OurDevOpsJourney"
+      vb.cpus    = 4
+      vb.customize ["modifyvm", :id, "--vram", "128"]
+  end
+  config.vm.box = "ubuntu/bionic64"
+  config.vm.provision "shell", inline: <<-SHELL
+     sudo apt update
+     sudo apt install zsh -y
+     chsh -s $(which zsh)
+     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
+     git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+  SHELL
+end
