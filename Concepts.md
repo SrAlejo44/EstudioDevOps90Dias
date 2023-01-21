@@ -1,0 +1,14 @@
+- ¿What is DevOps?
+- DevOps Live Cycle
+- DevOps and Agile
+- CI/CD
+- Version Control
+- Orchestrations
+- Automation
+- High concurrency arquitecture
+- Operative System
+- Containers
+- Infrastructure As a Code
+- Configuration management
+- Monitoring
+- Data Base
