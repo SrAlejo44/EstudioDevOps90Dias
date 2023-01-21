@@ -1,4 +1,7 @@
 - ¿What is DevOps?
+
+**DevOps** is a work methodology with a collaborative approach between the **Dev**elopment and **Op**eration**s** area, which seeks software development, automation, implementation, and maintenance. The **DevOps** work model offers Speed, Reliability, Security, Scale, and Rapid Delivery.
+
 - DevOps Live Cycle
 - DevOps and Agile
 - CI/CD
