@@ -4,7 +4,7 @@
 
 - DevOps Life Cycle
 
-<code><img hight="40" width="40" alt="devops life cycle" title="devops life cycle" src=image/devops-lifecycle.png></code>
+<code><img hight="40" width="40" alt="devops life cycle" title="devops life cycle" src=images/devops-lifecycle.jpg></code>
 
 - DevOps and Agile
 - CI/CD
