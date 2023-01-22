@@ -40,3 +40,5 @@ The DevOps life cycle details 8 phases that relate to the ongoing development, i
 - Configuration management
 - Monitoring
 - Data Base
+
+- </code> **[HomePage](https://github.com/SrAlejo44/Our-DevOps-Journey/blob/main/README.md)**
